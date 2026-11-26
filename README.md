@@ -29,8 +29,8 @@ Uma API de Autenticação robusta e segura construída com **FastAPI**, utilizan
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/auth-api.git
-   cd auth-api
+   git clone https://github.com/McLo1/API-Auth-Py.git
+   cd API-Auth-Py
    ```
 
 2. Crie um arquivo `.env` na raiz do projeto baseado no `.env.example`:
@@ -60,7 +60,7 @@ A API estará disponível em `http://localhost:8000`.
 
 2. Inicie o servidor:
    ```bash
-   uvicorn app.main:app --reload
+   python -m uvicorn main:app --app-dir app --reload
    ```
 
 ## 🔌 Endpoints da API
